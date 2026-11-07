@@ -14,3 +14,10 @@ File: `element_at.py`
 
 Defines a function that retrieves an element from a list using its index.
 Returns `None` if the index is negative or out of range.
+
+## Task 2: Replace an Element in a List
+
+File: `replace_in_list.py`
+
+Defines a function that replaces an element at a specified index.
+Returns the original list unchanged if the index is negative or out of range.
