@@ -51,3 +51,11 @@ File: `update_dictionary.py`
 Defines a function that updates an existing dictionary key or adds
 a new key/value pair if the key does not exist.
 Returns the updated dictionary.
+
+## Task 7: Best Score
+
+File: `best_score.py`
+
+Defines a function that returns the dictionary key associated
+with the highest integer value.
+Returns `None` if the dictionary is empty or `None`.
