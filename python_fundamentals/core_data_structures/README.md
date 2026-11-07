@@ -43,3 +43,11 @@ File: `common_elements.py`
 
 Defines a function that returns a new set containing elements
 present in both input sets using the intersection method.
+
+## Task 6: Update or Add a Key/Value in a Dictionary
+
+File: `update_dictionary.py`
+
+Defines a function that updates an existing dictionary key or adds
+a new key/value pair if the key does not exist.
+Returns the updated dictionary.
