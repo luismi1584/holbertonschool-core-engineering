@@ -21,3 +21,10 @@ File: `replace_in_list.py`
 
 Defines a function that replaces an element at a specified index.
 Returns the original list unchanged if the index is negative or out of range.
+
+## Task 3: Print a Matrix of Integers
+
+File: `print_matrix_integer.py`
+
+Defines a function that prints a matrix of integers.
+Each row appears on a separate line, with integers separated by a single space.
