@@ -28,3 +28,11 @@ File: `print_matrix_integer.py`
 
 Defines a function that prints a matrix of integers.
 Each row appears on a separate line, with integers separated by a single space.
+
+## Task 4: Tuple Addition
+
+File: `add_tuple.py`
+
+Defines a function that adds the first two elements of two tuples.
+Missing values are treated as zero, and extra values are ignored.
+Returns a new tuple containing exactly two integers.
