@@ -36,3 +36,10 @@ File: `add_tuple.py`
 Defines a function that adds the first two elements of two tuples.
 Missing values are treated as zero, and extra values are ignored.
 Returns a new tuple containing exactly two integers.
+
+## Task 5: Common Elements in Two Sets
+
+File: `common_elements.py`
+
+Defines a function that returns a new set containing elements
+present in both input sets using the intersection method.
