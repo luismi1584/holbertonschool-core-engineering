@@ -19,3 +19,10 @@ defensive, predictable programs.
 - Prints up to x elements of a list.
 - Handles IndexError using try and except.
 - Returns the actual number of elements printed.
+
+### 1. Safe Integer Printing
+- File: safe_print_integer.py
+- Prints integers using "{:d}".format().
+- Returns True when printing succeeds.
+- Returns False when formatting raises an exception.
+- Uses try and except without importing modules or using type().
