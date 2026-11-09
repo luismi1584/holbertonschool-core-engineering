@@ -33,3 +33,9 @@ defensive, predictable programs.
 - Skips non-integer elements using try and except.
 - Returns the number of integers successfully printed.
 - Allows IndexError to propagate when x exceeds the list length.
+
+### 3. Divide Two Integers Safely
+- File: safe_print_division.py
+- Performs division inside a try block.
+- Handles runtime exceptions and returns None.
+- Uses finally to always print the result.
