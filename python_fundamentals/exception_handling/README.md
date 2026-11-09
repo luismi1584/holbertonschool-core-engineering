@@ -39,3 +39,8 @@ defensive, predictable programs.
 - Performs division inside a try block.
 - Handles runtime exceptions and returns None.
 - Uses finally to always print the result.
+
+### 4. Raise Exception
+- File: raise_exception.py
+- Defines a function that explicitly raises a TypeError.
+- Demonstrates the use of Python's raise statement.
