@@ -44,3 +44,9 @@ defensive, predictable programs.
 - File: raise_exception.py
 - Defines a function that explicitly raises a TypeError.
 - Demonstrates the use of Python's raise statement.
+
+### 5. Raise a Message
+- File: raise_exception_msg.py
+- Defines a function that raises a NameError.
+- Accepts a custom exception message.
+- Uses an empty string as the default message.
