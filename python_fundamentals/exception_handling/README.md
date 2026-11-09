@@ -26,3 +26,10 @@ defensive, predictable programs.
 - Returns True when printing succeeds.
 - Returns False when formatting raises an exception.
 - Uses try and except without importing modules or using type().
+
+### 2. Safe List Printing with Type Handling
+- File: safe_print_list_integers.py
+- Prints only integers among the first x elements of a list.
+- Skips non-integer elements using try and except.
+- Returns the number of integers successfully printed.
+- Allows IndexError to propagate when x exceeds the list length.
