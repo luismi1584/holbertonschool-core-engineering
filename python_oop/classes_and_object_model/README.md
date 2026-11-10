@@ -26,3 +26,10 @@ including classes, instances, attributes, methods, and encapsulation.
 - Created an empty class named `Square`.
 - Added module and class documentation.
 - Verified that instances have an empty attribute dictionary.
+
+### 2. Square with Size
+- File: `1-square.py`
+- Defines a `Square` class with a private instance attribute `__size`.
+- Uses `__init__(self, size)` to initialize the square.
+- Demonstrates encapsulation through Python's name-mangling mechanism.
+- Direct access to `size` and `__size` raises `AttributeError`.
