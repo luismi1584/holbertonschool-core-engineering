@@ -66,3 +66,15 @@ including classes, instances, attributes, methods, and encapsulation.
 - Uses `self.size = size` in the constructor to centralize validation.
 - Provides an `area(self)` method to calculate the square's area.
 - Preserves the previous valid size when an invalid assignment is attempted.
+
+### 6. Printing a Square
+- File: `5-square.py`
+- Defines a `Square` class with a private `__size` attribute.
+- Implements a getter using `@property`.
+- Implements a setter using `@size.setter`.
+- Validates that size is a non-negative integer.
+- Provides an `area(self)` method to calculate the square's area.
+- Adds a public instance method `my_print(self)`.
+- Prints the square using the `#` character.
+- Prints one empty line when the size is `0`.
+- Supports changing the square's size through the validated setter.
