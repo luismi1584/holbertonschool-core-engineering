@@ -42,3 +42,14 @@ including classes, instances, attributes, methods, and encapsulation.
 - Raises `TypeError` with the message `size must be an integer` for invalid types.
 - Raises `ValueError` with the message `size must be >= 0` for negative values.
 - Defaults to a size of `0` when no argument is provided.
+
+### 4. Area of a Square
+- File: `3-square.py`
+- Defines a `Square` class with a private `__size` attribute.
+- Uses `__init__(self, size=0)` to initialize the square.
+- Validates that the size is a non-negative integer.
+- Raises `TypeError` for invalid types.
+- Raises `ValueError` for negative values.
+- Implements an instance method `area(self)`.
+- Returns the square's area using `self.__size ** 2`.
+- Preserves encapsulation through Python's name-mangling mechanism.
