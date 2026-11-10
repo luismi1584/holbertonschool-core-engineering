@@ -78,3 +78,17 @@ including classes, instances, attributes, methods, and encapsulation.
 - Prints the square using the `#` character.
 - Prints one empty line when the size is `0`.
 - Supports changing the square's size through the validated setter.
+
+### 7. Print Square Instance
+- File: `6-square.py`
+- Defines a `Square` class with private `__size` and `__position` attributes.
+- Uses `__init__(self, size=0, position=(0, 0))`.
+- Implements getters and setters for size and position.
+- Validates that size is a non-negative integer.
+- Validates that position is a tuple of two non-negative integers.
+- Raises `TypeError` for invalid position values.
+- Provides an `area(self)` method.
+- Implements `my_print(self)` to print the square using `#`.
+- Uses position to control horizontal spaces and vertical blank lines.
+- Implements `__str__(self)` to control the string representation.
+- Allows `print(square)` to produce the same visual output as `square.my_print()`.
