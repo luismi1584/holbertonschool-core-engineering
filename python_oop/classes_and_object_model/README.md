@@ -53,3 +53,16 @@ including classes, instances, attributes, methods, and encapsulation.
 - Implements an instance method `area(self)`.
 - Returns the square's area using `self.__size ** 2`.
 - Preserves encapsulation through Python's name-mangling mechanism.
+
+### 5. Access and Update Private Attribute
+- File: `4-square.py`
+- Defines a `Square` class with a private `__size` attribute.
+- Uses `__init__(self, size=0)` to initialize the square.
+- Implements a getter using `@property`.
+- Implements a setter using `@size.setter`.
+- Validates that size is a non-negative integer.
+- Raises `TypeError` for invalid types.
+- Raises `ValueError` for negative values.
+- Uses `self.size = size` in the constructor to centralize validation.
+- Provides an `area(self)` method to calculate the square's area.
+- Preserves the previous valid size when an invalid assignment is attempted.
