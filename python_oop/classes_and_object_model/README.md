@@ -33,3 +33,12 @@ including classes, instances, attributes, methods, and encapsulation.
 - Uses `__init__(self, size)` to initialize the square.
 - Demonstrates encapsulation through Python's name-mangling mechanism.
 - Direct access to `size` and `__size` raises `AttributeError`.
+
+### 3. Size Validation
+- File: `2-square.py`
+- Defines a `Square` class with a private `__size` attribute.
+- Uses `__init__(self, size=0)` to initialize the square.
+- Validates that `size` is an integer.
+- Raises `TypeError` with the message `size must be an integer` for invalid types.
+- Raises `ValueError` with the message `size must be >= 0` for negative values.
+- Defaults to a size of `0` when no argument is provided.
