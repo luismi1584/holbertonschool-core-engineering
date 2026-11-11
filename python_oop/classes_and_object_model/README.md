@@ -92,3 +92,15 @@ including classes, instances, attributes, methods, and encapsulation.
 - Uses position to control horizontal spaces and vertical blank lines.
 - Implements `__str__(self)` to control the string representation.
 - Allows `print(square)` to produce the same visual output as `square.my_print()`.
+
+### 8. Rectangle Class
+- File: `1-rectangle.py`
+- Defines a `Rectangle` class with private `__width` and `__height` attributes.
+- Uses `__init__(self, width=0, height=0)` to initialize the rectangle.
+- Implements getters using `@property`.
+- Implements setters using `@width.setter` and `@height.setter`.
+- Validates that width and height are non-negative integers.
+- Raises `TypeError` for invalid types.
+- Raises `ValueError` for negative values.
+- Uses the setters during initialization to centralize validation.
+- Preserves previously valid dimensions when invalid assignments are attempted.
