@@ -104,3 +104,14 @@ including classes, instances, attributes, methods, and encapsulation.
 - Raises `ValueError` for negative values.
 - Uses the setters during initialization to centralize validation.
 - Preserves previously valid dimensions when invalid assignments are attempted.
+
+### 9. Area and Perimeter
+- File: `2-rectangle.py`
+- Extends the Rectangle class with area and perimeter methods.
+- Maintains private `__width` and `__height` attributes.
+- Uses properties and setters to validate rectangle dimensions.
+- Implements `area(self)` to return width multiplied by height.
+- Implements `perimeter(self)` to return twice the sum of width and height.
+- Returns a perimeter of 0 when either width or height is 0.
+- Supports updating dimensions after object creation.
+- Preserves the validation behavior from the previous Rectangle class.
