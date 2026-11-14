@@ -165,3 +165,38 @@ Expected output:
 - Polymorphism
 - Encapsulation
 - Code reuse through super()
+
+## Task 5: Square #2
+
+File: 2-square.py
+
+This program extends the Square class by implementing
+a custom string representation.
+
+### Features
+
+- Inherits from Rectangle.
+- Validates size using integer_validator().
+- Stores size as a private attribute.
+- Initializes Rectangle with equal width and height.
+- Implements area() to calculate the square's area.
+- Overrides __str__() to display the square description.
+
+### Example
+
+    s = Square(13)
+    print(s)
+    print(s.area())
+
+Expected output:
+
+    [Square] 13/13
+    169
+
+### Concepts
+
+- Inheritance
+- Method overriding
+- Polymorphism
+- Encapsulation
+- String representation using __str__()
