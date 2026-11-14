@@ -131,3 +131,37 @@ Expected output:
 - Polymorphism
 - Encapsulation
 - String representation using __str__()
+
+## Task 4: Square #1
+
+File: 1-square.py
+
+This program defines a Square class that inherits from Rectangle.
+
+### Features
+
+- Initializes a square using a single size parameter.
+- Validates size using the inherited integer_validator() method.
+- Stores size as a private attribute.
+- Calls the Rectangle constructor with equal width and height.
+- Implements area() to calculate size multiplied by size.
+- Inherits the string representation from Rectangle.
+
+### Example
+
+    s = Square(13)
+    print(s)
+    print(s.area())
+
+Expected output:
+
+    [Rectangle] 13/13
+    169
+
+### Concepts
+
+- Multilevel inheritance
+- Method overriding
+- Polymorphism
+- Encapsulation
+- Code reuse through super()
