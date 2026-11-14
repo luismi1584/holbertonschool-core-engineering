@@ -41,3 +41,30 @@ Run the program:
     True
     True
     True
+
+## Task 1: Base Geometry
+
+File: base_geometry.py
+
+This program introduces the BaseGeometry class, which provides
+shared functionality for geometric shapes.
+
+### Methods
+
+- area(self):
+  Raises an Exception with the message
+  "area() is not implemented".
+
+- integer_validator(self, name, value):
+  Validates that a value is a positive integer.
+
+  Raises TypeError if the value is not an integer.
+  Raises ValueError if the value is less than or equal to zero.
+
+### Concepts
+
+- Base classes
+- Shared methods
+- Input validation
+- Exception handling
+- Inheritance and code reuse
