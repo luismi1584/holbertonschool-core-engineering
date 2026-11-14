@@ -68,3 +68,32 @@ shared functionality for geometric shapes.
 - Input validation
 - Exception handling
 - Inheritance and code reuse
+
+## Task 2: Rectangle
+
+File: 1-rectangle.py
+
+This program defines a Rectangle class that inherits
+from BaseGeometry.
+
+### Features
+
+- Initializes a rectangle using width and height.
+- Validates both dimensions using the inherited
+  integer_validator() method.
+- Stores width and height as private attributes.
+- Does not provide public getters or setters.
+
+### Validation
+
+- TypeError is raised if a dimension is not an integer.
+- ValueError is raised if a dimension is less than or
+  equal to zero.
+
+### Concepts
+
+- Class inheritance
+- Encapsulation
+- Private attributes
+- Method reuse
+- Input validation
