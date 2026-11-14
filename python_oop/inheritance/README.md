@@ -97,3 +97,37 @@ from BaseGeometry.
 - Private attributes
 - Method reuse
 - Input validation
+
+## Task 3: Full Rectangle
+
+File: 2-rectangle.py
+
+This program extends the Rectangle class by implementing
+area calculation and a readable string representation.
+
+### Features
+
+- Inherits from BaseGeometry.
+- Validates width and height using integer_validator().
+- Stores dimensions as private attributes.
+- Implements area() to calculate width multiplied by height.
+- Implements __str__() to display the rectangle.
+
+### Example
+
+    r = Rectangle(3, 5)
+    print(r)
+    print(r.area())
+
+Expected output:
+
+    [Rectangle] 3/5
+    15
+
+### Concepts
+
+- Inheritance
+- Method overriding
+- Polymorphism
+- Encapsulation
+- String representation using __str__()
