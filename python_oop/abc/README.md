@@ -90,3 +90,55 @@ Expected output:
 - Inheritance and polymorphism
 - Duck typing
 - Geometric calculations
+
+## Task 2: The Enigmatic FlyingFish - Exploring Multiple Inheritance
+
+File: `flyingfish.py`
+
+### Description
+
+Demonstrates multiple inheritance and Python's Method Resolution
+Order (MRO) using Fish, Bird, and FlyingFish classes.
+
+### Classes
+
+- Fish: Defines swim() and habitat() methods.
+- Bird: Defines fly() and habitat() methods.
+- FlyingFish: Inherits from Fish and Bird and overrides
+  swim(), fly(), and habitat().
+
+### Example
+
+    from flyingfish import Fish, Bird, FlyingFish
+
+    flying_fish = FlyingFish()
+
+    flying_fish.swim()
+    flying_fish.fly()
+    flying_fish.habitat()
+
+Expected output:
+
+    The flying fish is swimming!
+    The flying fish is soaring!
+    The flying fish lives both in water and the sky!
+
+### Method Resolution Order
+
+The MRO of FlyingFish is:
+
+    FlyingFish
+    Fish
+    Bird
+    object
+
+Python searches classes in this order when resolving inherited
+methods and attributes.
+
+### Concepts
+
+- Multiple inheritance
+- Method overriding
+- Method Resolution Order (MRO)
+- Polymorphism
+- Parent and child classes
