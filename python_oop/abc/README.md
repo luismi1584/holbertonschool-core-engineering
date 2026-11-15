@@ -142,3 +142,55 @@ methods and attributes.
 - Method Resolution Order (MRO)
 - Polymorphism
 - Parent and child classes
+
+## Task 3: The Mystical Dragon - Mastering Mixins
+
+File: `dragon.py`
+
+### Description
+
+Demonstrates how mixins provide reusable behaviors through
+multiple inheritance.
+
+The Dragon class inherits swimming and flying capabilities
+from two separate mixins.
+
+### Classes
+
+- SwimMixin: Provides the swim() method.
+- FlyMixin: Provides the fly() method.
+- Dragon: Inherits from SwimMixin and FlyMixin and defines
+  its own roar() method.
+
+### Example
+
+    from dragon import Dragon
+
+    dragon = Dragon()
+
+    dragon.swim()
+    dragon.fly()
+    dragon.roar()
+
+Expected output:
+
+    The creature swims!
+    The creature flies!
+    The dragon roars!
+
+### Method Resolution Order
+
+The MRO of Dragon is:
+
+    Dragon
+    SwimMixin
+    FlyMixin
+    object
+
+### Concepts
+
+- Mixins
+- Multiple inheritance
+- Reusable behaviors
+- Method Resolution Order (MRO)
+- Code composition
