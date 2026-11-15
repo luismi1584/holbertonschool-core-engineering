@@ -44,3 +44,49 @@ Attempting to instantiate Animal directly raises a TypeError.
 - Inheritance
 - Method overriding
 - Interface-like design
+
+## Task 1: Shapes, Interfaces, and Duck Typing
+
+File: `shapes.py`
+
+### Description
+
+Demonstrates abstract base classes, geometric calculations,
+inheritance, polymorphism, and duck typing.
+
+### Classes
+
+- Shape: Abstract base class defining area() and perimeter().
+- Circle: Implements area() and perimeter() using its radius.
+- Rectangle: Implements area() and perimeter() using its
+  width and height.
+
+### Function
+
+- shape_info(shape): Prints the area and perimeter of an
+  object using its methods without checking its type.
+
+### Example
+
+    from shapes import Circle, Rectangle, shape_info
+
+    circle = Circle(radius=5)
+    rectangle = Rectangle(width=4, height=7)
+
+    shape_info(circle)
+    shape_info(rectangle)
+
+Expected output:
+
+    Area: 78.53981633974483
+    Perimeter: 31.41592653589793
+    Area: 28
+    Perimeter: 22
+
+### Concepts
+
+- Abstract Base Classes (ABC)
+- Abstract methods
+- Inheritance and polymorphism
+- Duck typing
+- Geometric calculations
