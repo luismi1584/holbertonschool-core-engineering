@@ -194,3 +194,61 @@ The MRO of Dragon is:
 - Reusable behaviors
 - Method Resolution Order (MRO)
 - Code composition
+
+## Task 4: Extending the Python List
+
+File: `verboselist.py`
+
+### Description
+
+Demonstrates how to extend Python's built-in list class
+by overriding methods and using super().
+
+The VerboseList class provides notifications whenever
+items are added or removed.
+
+### Class
+
+- VerboseList: Inherits from Python's built-in list class.
+
+### Overridden Methods
+
+- append(item): Adds an item and prints a notification.
+- extend(iterable): Adds multiple items and prints the number added.
+- remove(item): Prints a notification before removing an item.
+- pop(index=-1): Prints a notification before popping an item
+  and returns the removed value.
+
+### Example
+
+    from verboselist import VerboseList
+
+    vl = VerboseList([1, 2, 3])
+
+    vl.append(4)
+    vl.extend([5, 6])
+    vl.remove(2)
+    vl.pop()
+    vl.pop(0)
+
+Expected output:
+
+    Added [4] to the list.
+    Extended the list with [2] items.
+    Removed [2] from the list.
+    Popped [6] from the list.
+    Popped [1] from the list.
+
+### Error Handling
+
+- Removing an item that does not exist raises ValueError.
+- Popping an invalid index raises IndexError.
+- The original list functionality is preserved using super().
+
+### Concepts
+
+- Inheritance from built-in classes
+- Method overriding
+- super()
+- List operations
+- Exception handling
